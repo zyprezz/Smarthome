@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>VarmeStyring</class>
+ <widget class="QDialog" name="VarmeStyring">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QSlider" name="verticalSlider">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>50</y>
+     <width>81</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QSlider::handle {image: url(:/resources/image.png);}
+
+QSlider::groove {image:  url(:/term.png); left: 0px; right:0px;  /* absolutely position 4px from the left and right of the widget. setting margins on the widget should work too... */} 
+
+QSlider::handle {height:55px;width:55px;  image:  url(:/term.png); left: 10px; right: 0px;top:20px;bottom:20px; }
+
+QSlider::sub-page { image: url(:/term.png);left: 22px; right:0px;  }</string>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TempLabel">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>120</y>
+     <width>59</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

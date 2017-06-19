@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>on.png</file>
+        <file>off.png</file>
+        <file>1gardinr.png</file>
+        <file>l1off.png</file>
+        <file>gardinl.png</file>
+        <file>gardinr.png</file>
+        <file>1gardinl.png</file>
+        <file>l1on.png</file>
+        <file>l2on.png</file>
+        <file>l2off.png</file>
+        <file>term.png</file>
+        <file>ont.png</file>
+        <file>offt.png</file>
+    </qresource>
+</RCC>
